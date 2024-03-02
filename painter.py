@@ -1,4 +1,5 @@
 import os
+import sys
 import cv2
 import random
 
@@ -73,7 +74,7 @@ class PainterBase():
             self.net_G.eval()
         else:
             print('pre-trained renderer does not exist...')
-            exit()
+            sys.exit()
 
 
     def _compute_acc(self):
@@ -376,7 +377,7 @@ class NeuralStyleTransfer(PainterBase):
 
         print('loading pre-generated vector file...')
         if os.path.exists(args.vector_file) is False:
-            exit('vector file does not exist, pls check --vector_file, or run demo.py fist')
+            sys.exit('vector file does not exist, pls check --vector_file, or run demo.py fist')
         else:
             npzfile = np.load(args.vector_file)
 
