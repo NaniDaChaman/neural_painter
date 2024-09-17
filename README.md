@@ -1,3 +1,11 @@
+# Note from Sparsh : 
+
+Please note that this repository is borrowed from 
+[jiupinjia](https://github.com/jiupinjia/stylized-neural-painting)
+
+Our goal with borrowing from this repository was to build on their work by adding heuristic style transfer to their work !!!
+
+
 # Stylized Neural Painting 
 
 [![Open in RunwayML Badge](https://open-app.runwayml.com/gh-badge.svg)](https://open-app.runwayml.com/?model=akhaliq/stylized-neural-painting)
